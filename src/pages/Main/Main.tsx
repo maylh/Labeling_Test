@@ -1,4 +1,4 @@
-import React from 'react'
+//import React from 'react'
 import * as S from "./Main.styled"
 import { BtnFloating } from '@assets/svgs'
 
