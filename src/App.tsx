@@ -1,13 +1,28 @@
-import { useState } from 'react'
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { Navigate } from "react-router-dom";
+import Layout from "@pages/Layout/Layout"
+import Main from "@pages/Main/Main";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Layout/>,
+    children: [
+      {
+        path: "/",
+        element : <Main/>
+      },
+      
+    ],
+    errorElement: <Navigate to={"/"}/>
+  }
+])
 
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-
-      
+      <RouterProvider router={router}/>
     </>
   )
 }
