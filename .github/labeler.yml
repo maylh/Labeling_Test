@@ -27,6 +27,8 @@ labels:
   ':sparkles: feat':
     include:
       - '\bfeat\b'
+    exclude:
+      - '\bdocs\b'
   ':bug: fix':
     include:
       - '\bfix\b'
