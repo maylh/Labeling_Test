@@ -24,7 +24,7 @@ labels:
   ':tada: init':
     include:
       - '\binit\b'
-  'wontfix':
+  ':sparkles: feat':
     include:
       - '\bfeat\b'
   ':bug: fix':
