@@ -11,25 +11,35 @@ comments:
 labels:
   ':tada: init':
     include:
-      - ['\bfeat\b', '\bFeat\b', '\bFEAT\b']
+      - '\binit\b'
+      - '\bInit\b'
   ':sparkles: feat':
     include:
-      - ['\bfeat\b', '\bFeat\b', '\bFEAT\b']
+      - '\bfeat\b'
+      - '\bFeat\b'
   ':bug: fix':
     include:
-      - ['\bfix\b', '\bFix\b', '\bBug\b', '\bbug\b']
+      - '\bfix\b'
+      - '\bFix\b'
+      - '\bBug\b'
+      - '\bbug\b'
   ':package: chore':
     include:
-      - ['\bdocs\b', '\bDocs\b']
+      - '\bchore\b'
+      - '\bChore\b'
   ':recycle: refactor':
     include:
-      - ['\brefactor\b', '\bRefactor\b']
+      - '\brefactor\b'
+      - '\bRefactor\b'
   ':lipstick: design':
     include:
-      - ['\bdesign\b', '\bDesign\b']
+      - '\bdesign\b'
+      - '\bDesign\b'
   ':ambulance: hotfix':
     include:
-      - ['\bhotfix\b', '\bHotfix\b']
+      - '\bhotfix\b'
+      - '\bHotfix\b'
   ':memo: docs':
     include:
-      - ['\bdocs\b', '\bDocs\b']
+      - '\bdocs\b'
+      - '\bDocs\b'
