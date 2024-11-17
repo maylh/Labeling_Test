@@ -1,3 +1,5 @@
+// .github/labeler.yml
+
 enable:
   issues: true
   prs: true
@@ -12,34 +14,24 @@ labels:
   ':tada: init':
     include:
       - '\binit\b'
-      - '\bInit\b'
   ':sparkles: feat':
     include:
       - '\bfeat\b'
-      - '\bFeat\b'
   ':bug: fix':
     include:
       - '\bfix\b'
-      - '\bFix\b'
-      - '\bBug\b'
-      - '\bbug\b'
   ':package: chore':
     include:
       - '\bchore\b'
-      - '\bChore\b'
   ':recycle: refactor':
     include:
       - '\brefactor\b'
-      - '\bRefactor\b'
   ':lipstick: design':
     include:
       - '\bdesign\b'
-      - '\bDesign\b'
   ':ambulance: hotfix':
     include:
       - '\bhotfix\b'
-      - '\bHotfix\b'
   ':memo: docs':
     include:
       - '\bdocs\b'
-      - '\bDocs\b'
