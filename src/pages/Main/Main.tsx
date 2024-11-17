@@ -5,7 +5,7 @@ import { BtnFloating } from '@assets/svgs'
 const Main = () => {
   return (
     <S.MainWrapper>
-      테스트테스트 20~
+      이제 좀 돼라 ㅋ
       <BtnFloating width={'100px'} height={'100px'}/>
     </S.MainWrapper>
   )
