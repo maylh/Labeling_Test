@@ -23,25 +23,25 @@ comments:
 labels:
   ':tada: init':
     include:
-      - '\binit\b'
+      - "\\binit\\b" 
   ':sparkles: feat':
     include:
-      - '\bfeat\b'
+      - "\\bfeat\\b"
   ':bug: fix':
     include:
-      - '\bfix\b'
+      - "\\bfix\\b"
   ':package: chore':
     include:
-      - '\bchore\b'
+      - "\\bchore\\b"
   ':recycle: refactor':
     include:
-      - '\brefactor\b'
+      - "\\brefactor\\b"
   ':lipstick: design':
     include:
-      - '\bdesign\b'
+      - "\\bdesign\\b"
   ':ambulance: hotfix':
     include:
-      - '\bhotfix\b'
+      - "\\bhotfix\\b"
   ':memo: docs':
     include:
-      - '\bdocs\b'
+      - "\\bdocs\\b"
