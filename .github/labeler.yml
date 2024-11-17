@@ -21,34 +21,27 @@ comments:
 #    - 'include' patterns will associate a label if any of these patterns match
 #    - 'exclude' patterns will ignore this label if any of these patterns match
 labels:
-  ':tada: init':
+  'init':
     include:
       - '\binit\b'
-  ':sparkles: feat':
+  'feat':
     include:
       - '\bfeat\b'
-    exclude:
-      - '\bchore\b'
-      - '\bfix\b'
-      - '\brefactor\b'
-      - '\bdesign\b'
-      - '\bhotfix\b'
-      - '\bdocs\b'
-  ':bug: fix':
+  'fix':
     include:
       - '\bfix\b'
-  ':package: chore':
+  'chore':
     include:
       - '\bchore\b'
-  ':recycle: refactor':
+  'refactor':
     include:
       - '\brefactor\b'
-  ':lipstick: design':
+  'design':
     include:
       - '\bdesign\b'
-  ':ambulance: hotfix':
+  'hotfix':
     include:
       - '\bhotfix\b'
-  ':memo: docs':
+  'docs':
     include:
       - '\bdocs\b'
