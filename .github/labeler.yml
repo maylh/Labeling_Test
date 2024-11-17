@@ -13,8 +13,15 @@ labels:
     include:
       - '\binit\b'
   ':sparkles: feat':
-    include:
-      - '\bfeat\b'
+  include:
+    - '\bfeat\b'
+  exclude:
+    - '\bchore\b'
+    - '\bfix\b'
+    - '\brefactor\b'
+    - '\bdesign\b'
+    - '\bhotfix\b'
+    - '\bdocs\b'
   ':bug: fix':
     include:
       - '\bfix\b'
