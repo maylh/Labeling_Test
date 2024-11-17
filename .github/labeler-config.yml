@@ -1,0 +1,48 @@
+filters:
+  - label: ':tada: init'
+    regexs:
+      - '\\[init(\\/\\#\\d+)?\\]'  # [init] 또는 [init/#이슈번호]
+    events: [issues, pull_request]
+    targets: [title]
+
+  - label: ':sparkles: feat'
+    regexs:
+      - '\\[feat(\\/\\#\\d+)?\\]'  # [feat] 또는 [feat/#이슈번호]
+    events: [issues, pull_request]
+    targets: [title]
+
+  - label: ':bug: fix'
+    regexs:
+      - '\\[fix(\\/\\#\\d+)?\\]'  # [fix] 또는 [fix/#이슈번호]
+    events: [issues, pull_request]
+    targets: [title]
+
+  - label: ':package: chore'
+    regexs:
+      - '\\[chore(\\/\\#\\d+)?\\]'  # [chore] 또는 [chore/#이슈번호]
+    events: [issues, pull_request]
+    targets: [title]
+
+  - label: ':recycle: refactor'
+    regexs:
+      - '\\[refactor(\\/\\#\\d+)?\\]'  # [refactor] 또는 [refactor/#이슈번호]
+    events: [issues, pull_request]
+    targets: [title]
+
+  - label: ':lipstick: design'
+    regexs:
+      - '\\[design(\\/\\#\\d+)?\\]'  # [design] 또는 [design/#이슈번호]
+    events: [issues, pull_request]
+    targets: [title]
+
+  - label: ':ambulance: hotfix'
+    regexs:
+      - '\\[hotfix(\\/\\#\\d+)?\\]'  # [hotfix] 또는 [hotfix/#이슈번호]
+    events: [issues, pull_request]
+    targets: [title]
+
+  - label: ':memo: docs'
+    regexs:
+      - '\\[docs(\\/\\#\\d+)?\\]'  # [docs] 또는 [docs/#이슈번호]
+    events: [issues, pull_request]
+    targets: [title]
