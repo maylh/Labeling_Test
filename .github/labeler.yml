@@ -25,9 +25,9 @@ labels:
     include:
       - '\binit\b'
   ':sparkles: feat':
-  include:
+    include:
       - '\bfeat\b'
-  exclude:
+    exclude:
       - ['\bchore\b', '\bfix\b', '\brefactor\b',  '\bdesign\b', '\bhotfix\b', '\bdocs\b']
   ':bug: fix':
     include:
