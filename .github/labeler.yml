@@ -1,0 +1,35 @@
+enable:
+  issues: true
+  prs: true
+
+comments:
+  issues: |
+    라벨 지정 제대로 되었는지 체크 한 번씩 하기 🧞‍♂️ 작업도 화이팅 !!!!!!! 😍
+  prs: |
+    라벨 지정 제대로 되었는지 체크 한 번씩 하기 🧞‍♂️ 고생했어요 다음 작업도 화이팅 !!!!!! 😍
+    
+labels:
+  ':tada: init':
+    include:
+      - ['\bfeat\b', '\bFeat\b', '\bFEAT\b']
+  ':sparkles: feat':
+    include:
+      - ['\bfeat\b', '\bFeat\b', '\bFEAT\b']
+  ':bug: fix':
+    include:
+      - ['\bfix\b', '\bFix\b', '\bBug\b', '\bbug\b']
+  ':package: chore':
+    include:
+      - ['\bdocs\b', '\bDocs\b']
+  ':recycle: refactor':
+    include:
+      - ['\brefactor\b', '\bRefactor\b']
+  ':lipstick: design':
+    include:
+      - ['\bdesign\b', '\bDesign\b']
+  ':ambulance: hotfix':
+    include:
+      - ['\bhotfix\b', '\bHotfix\b']
+  ':memo: docs':
+    include:
+      - ['\bdocs\b', '\bDocs\b']
