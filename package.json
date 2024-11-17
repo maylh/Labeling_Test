@@ -8,7 +8,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "svgr" : "npx @svgr/cli --out-dir src/assets/svgs --typescript -- public/svgs"
+    "svgr": "npx @svgr/cli --out-dir src/assets/svgs --typescript -- public/svgs"
   },
   "dependencies": {
     "@emotion/react": "^11.13.3",
